@@ -41,11 +41,11 @@ The SQL files in [migrations](migrations) are executed in alphabetical order whe
 docker-compose up -d
 ```
 
-Notes: `docker-compose down` is enough to cleanup everything since there is data volume.
+Notes: `docker-compose down` is enough to cleanup everything since there is data no volume.
 
 ## Tests
 
-Connect to adminer to run the query, or use the CLI, or pick any method you prefer.
+Connect to Adminer to run the query, or use the CLI, or pick any method you prefer.
 The query:
 
 ```sql
