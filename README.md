@@ -20,13 +20,13 @@
 
 ### appointments table
 
-| column           | type |
-| :--------------- | :--: |
-| id               | int  |
-| patient_id       | int  |
-| care_provider_id | int  |
-| start_datetime   | date |
-| end_datetime     | date |
+| column           |   type    |
+| :--------------- | :-------: |
+| id               |    int    |
+| patient_id       |    int    |
+| care_provider_id |    int    |
+| start_datetime   | timestamp |
+| end_datetime     | timestamp |
 
 ## The Problem
 
